@@ -9,15 +9,15 @@ int main(void)
 	char letter = 'a';
 	int better = '0';
 
-	while (letter <= 'f')
+	while (letter <= '9')
 	{
 		putchar(letter);
-		letter++;
+		better++;
 	}
-	while (better <= '9')
+	while (better <= 'f')
 	{
 		putchar(better);
-		better++;
+		letter++;
 	}
 
 	putchar('\n');
