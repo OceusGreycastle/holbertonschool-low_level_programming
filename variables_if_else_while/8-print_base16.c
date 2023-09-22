@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-	char letter = 'a';
-	int better = '0';
+	char better = 'a';
+	int letter = '0';
 
 	while (letter <= '9')
 	{
