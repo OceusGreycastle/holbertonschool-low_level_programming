@@ -2,6 +2,7 @@
 
 /**
 * _islower - prints a specific line
+* @c: makes lowercase right
 * Return: 0
 */
 
