@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void evensum()
+{
+	int i = 0;
+	int sum;
+
+	while(i <= 100)
+	{
+		i += 2;
+		sum += i;
+		printf("%d\n", sum);
+	}
+	return (0);
+}
