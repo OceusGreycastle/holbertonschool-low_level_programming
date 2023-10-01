@@ -24,6 +24,8 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
+		else if ((i % 3 != 0) && (i % 5 != 0))
+			printf("@i");
 	}
 
 	return (0);
