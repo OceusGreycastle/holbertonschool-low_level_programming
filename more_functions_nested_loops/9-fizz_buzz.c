@@ -24,10 +24,6 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else
-		{
-			printf("i");
-		}
 	}
 
 	return (0);
