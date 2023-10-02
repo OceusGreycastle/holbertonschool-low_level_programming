@@ -39,5 +39,6 @@ int _atoi(char *s)
 		v = v * q;
 		return (v - 1);
 	}
-	return (v * q);
+	else
+		return (v * q);
 }
