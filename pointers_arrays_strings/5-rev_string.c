@@ -19,7 +19,7 @@ void rev_string(char *s)
 	{
 		end++;
 	}
-	for (a = 0; b / 2; a++)
+	for (a = 0;a < b / 2; a++)
 	{
 		c = *start;
 		*start = *end;
