@@ -11,8 +11,12 @@ void print_rev(char *s)
 
 	while (E[s] != '\0')
 	{
-		_putchar(E[s]);
-		E--;
+		E++;
+	}
+	E = E - 1;
+	for (E; E >= 0; E--)
+	{
+		_putchar(s[E]);
 	}
 	_putchar('\n');
 }
