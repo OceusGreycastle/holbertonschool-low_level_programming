@@ -2,7 +2,6 @@
 
 /**
 *_sqrt_recursion - square root
-*_sqrthelp - working on square root
 *@n: base number
 *Return: 0
 */
@@ -22,6 +21,10 @@ int _sqrt_recursion(int n)
 		return (_sqrthelp(n, 2));
 	}
 }
+
+/**
+*_sqrthelp - Runs comp for SQRT
+*/
 
 int _sqrthelp(int x, int y)
 {
