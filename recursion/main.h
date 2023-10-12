@@ -17,4 +17,6 @@ int is_prime_number(int n);
 
 int _putchar(char);
 
+int _sqrthelp(int x, int y);
+
 #endif
