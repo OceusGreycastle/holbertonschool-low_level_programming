@@ -19,4 +19,6 @@ int _putchar(char);
 
 int _sqrthelp(int x, int y);
 
+int prime_saves(int x, int y);
+
 #endif
