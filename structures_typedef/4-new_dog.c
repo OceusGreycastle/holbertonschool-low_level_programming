@@ -23,6 +23,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		(*puppy).age = age;
 		return (puppy);
 	}
-	free(new_dog);
+	free(puppy);
 	return (0);
 }
