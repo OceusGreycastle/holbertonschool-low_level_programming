@@ -3,14 +3,14 @@
 
 /**
  * print_dog - prints the dogs info
- *
+ * @d: Points to struct dogs information
 */
 
 void print_dog(struct dog *d)
 {
-	if(d)
+	if (d)
 	{
-		if(!(*d).name)
+		if (!(*d).name)
 		{
 			printf("Name: (nil)\n");
 		}
@@ -19,7 +19,7 @@ void print_dog(struct dog *d)
 			printf("Name: %s\n", (*d).name);
 		}
 		printf("Age: %f\n", (*d).age);
-		if(!(*d).owner)
+		if (!(*d).owner)
 		{
 			printf("Owner: (nil)\n");
 		}
