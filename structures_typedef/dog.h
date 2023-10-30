@@ -1,7 +1,13 @@
 #ifndef HEADER
 #define HEADER
 
-struct dog 
+/**
+ * dog - A struct def
+ * @name: The name of the dog
+ * @owner: Owners name
+ * @age: Age of dog
+*/
+struct dog
 {
 	char *name;
 	char *owner;
