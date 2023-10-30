@@ -14,8 +14,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (puppy && ownercopy && namecopy)
 	{
-		(*puppy).namecopy = name;
-		(*puppy).ownercopy = owner;
+		(*puppy).name = namecopy;
+		(*puppy).owner = ownercopy;
 		(*puppy).age = age;
 		return (puppy);
 	}
