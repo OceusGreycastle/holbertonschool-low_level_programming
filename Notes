@@ -1,0 +1,6 @@
+(*p).y = 98;
+p->y = 98;
+my_point.y = 98
+(
+To set the member y of my variable my_point to 98, I can do (select all valid answers)
+)
