@@ -4,6 +4,8 @@ Structs and typedef builds
 
 2. Initializes the information the dog has
 
-3. Makes a new DOG
+3. Defines a new DOG
 
-4. 
+4. Makes a new DOG
+
+5. frees the dogs
