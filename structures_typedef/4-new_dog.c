@@ -12,17 +12,17 @@
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *puppy = malloc(sizeof(dog_t));
+	dog_t *my_dog = malloc(sizeof(dog_t));
 	char *namecopy = strdup(name);
 	char *ownercopy = strdup(owner);
 
-	if (puppy && ownercopy && namecopy)
+	if (my_dog && ownercopy && namecopy)
 	{
-		(*puppy).name = namecopy;
-		(*puppy).owner = ownercopy;
-		(*puppy).age = age;
-		return (puppy);
+		(*my_dog).name = namecopy;
+		(*my_dog).owner = ownercopy;
+		(*my_dog).age = age;
+		return (my_dog);
 	}
-	free(puppy);
+	free(my_dog);
 	return (0);
 }
