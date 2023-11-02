@@ -23,14 +23,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		(*puppy).age = age;
 		return (puppy);
 	}
-	if (namecopy == NULL)
-	{
-		free(namecopy);
-	}
-	if (ownercopy == NULL)
-	{
-		free(ownercopy);
-	}
+
+	free(ownercopy);
+	free(namecopy);
 	free(puppy);
 	return (0);
 }
