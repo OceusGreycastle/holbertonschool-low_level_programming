@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	{
 		newArr[i] = c
 	}
-	newArr[i] = '\0'
-	free(newArr);
-	return(newArr);
+		newArr[i] = '\0'
+		free(newArr);
+		return(newArr);
 }
