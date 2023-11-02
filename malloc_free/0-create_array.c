@@ -6,7 +6,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *newArr;
 	int i;
-	newArr = malloc(size + 1)
+	newArr = malloc(size + 1);
 
 	if(newArr == NULL)
 	{
