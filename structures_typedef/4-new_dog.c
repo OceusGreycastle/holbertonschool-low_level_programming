@@ -17,7 +17,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	char *ownercopy = strdup(owner);
 
 	if (my_dog == NULL)
-	return (0);
+	return (NULL);
 
 	if (my_dog && ownercopy && namecopy)
 	{
