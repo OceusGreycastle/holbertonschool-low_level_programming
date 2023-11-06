@@ -16,6 +16,7 @@ int op_add(int a, int b)
  * op_sub - subtration operator
  * @a: int var
  * @b: int var
+ * Return: Always
 */
 int op_sub(int a, int b)
 {
@@ -26,6 +27,7 @@ int op_sub(int a, int b)
  * op_mul - multiplication operator
  * @a: int var
  * @b: int var
+ * Return: Always
 */
 int op_mul(int a, int b)
 {
@@ -36,6 +38,7 @@ int op_mul(int a, int b)
  * op_div - division operator
  * @a: int var
  * @b: int var
+ * Return: Always
 */
 int op_div(int a, int b)
 {
@@ -46,6 +49,7 @@ int op_div(int a, int b)
  * op_mod - modular operator
  * @a: int var
  * @b: int var
+ * Return: Always
 */
 int op_mod(int a, int b)
 {
