@@ -3,6 +3,10 @@
 #include <string.h>
 #include "3-calc.h"
 
+/**
+ * main - main func block
+*/
+
 int main(int argc, char **argv)
 {
 	int (*proc_nums)(int, int);

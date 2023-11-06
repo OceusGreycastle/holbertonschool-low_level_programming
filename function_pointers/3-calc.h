@@ -1,6 +1,10 @@
 #ifndef HEADER
 #define HEADER
 
+/**
+ * @op: operator struct
+*/
+
 typedef struct op
 {
 	char *op;

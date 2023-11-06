@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * get_op_func - operation for grabbing operator functions
+*/
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
