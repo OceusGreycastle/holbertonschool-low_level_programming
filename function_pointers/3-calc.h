@@ -5,7 +5,7 @@ typedef struct op
 {
 	char *op;
 	int (*f)(int a, int b);
-} op_td;
+} op_t;
 
 int (*get_op_func(char *s))(int, int);
 
