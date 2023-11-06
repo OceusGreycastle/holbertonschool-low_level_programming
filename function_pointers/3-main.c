@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		exit(98);
 	}
-	else if (proc_nums)
+	else if (!proc_nums)
 	{
 		printf("Error\n");
 		exit(99);
