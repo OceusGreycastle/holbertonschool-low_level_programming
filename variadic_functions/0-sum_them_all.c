@@ -3,6 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * sum_them_all - function that adds all given parameters
+ * @n: array size
+*/
+
 int sum_them_all(const unsigned int n, ...)
 {
     unsigned int a;
