@@ -6,6 +6,9 @@
  * op_mul - multiplication operator
  * op_div - division operator
  * op_mod - modular operator
+ * @a: int var
+ * @b: int var
+ * Return: Always
 */
 
 int op_add(int a, int b)

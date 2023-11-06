@@ -5,6 +5,8 @@
 
 /**
  * get_op_func - operation for grabbing operator functions
+ * @s: args
+ * Return: Always
 */
 
 int (*get_op_func(char *s))(int, int)

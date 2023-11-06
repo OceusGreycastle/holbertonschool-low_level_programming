@@ -5,6 +5,9 @@
 
 /**
  * main - main func block
+ * argc - agr counter
+ * argv - arg variables
+ * Return: always
 */
 
 int main(int argc, char **argv)

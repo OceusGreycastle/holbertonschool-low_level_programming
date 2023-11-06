@@ -2,7 +2,7 @@
 #define HEADER
 
 /**
- * @op: operator struct
+ * struct op - operator struct
 */
 
 typedef struct op
