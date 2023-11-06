@@ -6,22 +6,22 @@
 /**
  * sum_them_all - function that adds all given parameters
  * @n: array size
- * 
+ *
  * Return: sum for success 0 for fail
 */
 
 int sum_them_all(const unsigned int n, ...)
 {
-    unsigned int a;
-    int sum = 0;
-    va_list ap;
+	unsigned int a;
+	int sum = 0;
+	va_list ap;
 
-    va_start(ap, n);
+	va_start(ap, n);
 
-    for (a = 0; a < n; a++)
-    {
-        sum += va_arg(ap, int);
-    }
-    va_end(ap);
-    return (sum);
+	for (a = 0; a < n; a++)
+	{
+		sum += va_arg(ap, int);
+	}
+	va_end(ap);
+	return (sum);
 }
