@@ -2,10 +2,10 @@
 
 /**
  * op_add - addition operator
- * op_sub - subtration operator
- * op_mul - multiplication operator
- * op_div - division operator
- * op_mod - modular operator
+ * @op_sub: subtration operator
+ * @op_mul: multiplication operator
+ * @p_div: division operator
+ * @op_mod: modular operator
  * @a: int var
  * @b: int var
  * Return: Always
