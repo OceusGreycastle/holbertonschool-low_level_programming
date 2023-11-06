@@ -11,21 +11,21 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-    int check;
-    int i = 0;
+	int check;
+	int i = 0;
 
-    if (size == 0 || array == NULL || cmp == NULL)
-        return (-1);
+	if (size == 0 || array == NULL || cmp == NULL)
+		return (-1);
 
-    while (i < size)
-    {
-        check = (*cmp)(array[i]);
+	while (i < size)
+	{
+		check = (*cmp)(array[i]);
 
-        if (check != 0)
-            return (i);
-        
-        i++;
-    }
+		if (check != 0)
+			return (i);
 
-    return (-1);
+		i++;
+	}
+
+	return (-1);
 }
