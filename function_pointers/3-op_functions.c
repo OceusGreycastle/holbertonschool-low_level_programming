@@ -2,10 +2,6 @@
 
 /**
  * op_add - addition operator
- * op_sub - subtration operator
- * op_mul - multiplication operator
- * op_div - division operator
- * op_mod - modular operator
  * @a: int var
  * @b: int var
  * Return: Always
@@ -16,21 +12,41 @@ int op_add(int a, int b)
 	return (a + b);
 }
 
+/**
+ * op_sub - subtration operator
+ * @a: int var
+ * @b: int var
+*/
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 
+/**
+ * op_mul - multiplication operator
+ * @a: int var
+ * @b: int var
+*/
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
 
+/**
+ * op_div - division operator
+ * @a: int var
+ * @b: int var
+*/
 int op_div(int a, int b)
 {
 	return (a / b);
 }
 
+/**
+ * op_mod - modular operator
+ * @a: int var
+ * @b: int var
+*/
 int op_mod(int a, int b)
 {
 	return (a % b);
