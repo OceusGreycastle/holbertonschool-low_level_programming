@@ -19,6 +19,10 @@ void print_all(const char * const format, ...)
 
 	while (format && format[x])
 	{
+		if (!format)
+		{
+			printf(", ");
+		}
 		switch (format[x])
 		{
 		case 'c':
