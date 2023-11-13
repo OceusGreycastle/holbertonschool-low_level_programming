@@ -10,9 +10,10 @@
 
 size_t print_list(const list_t *h)
 {
-	cnt = 0;
 
 	size_t = cnt;
+
+	cnt = 0;
 
 	if ((*h).str == NULL)
 	{
