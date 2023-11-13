@@ -4,7 +4,7 @@
 /**
  * print_list - prints a list of str, or char
  * @h: pointer to a list
- * 
+ *
  * Return: Always cnt
 */
 
