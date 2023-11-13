@@ -11,9 +11,9 @@
 size_t print_list(const list_t *h)
 {
 
-	size_t cnt;
+	size_t count;
 
-	cnt = 0;
+	count = 0;
 
 	while (h != NULL)
 	{
@@ -26,7 +26,7 @@ size_t print_list(const list_t *h)
 			printf("[%d] %s\n", (*h).len, (*h).str);
 		}
 		h = (*h).next;
-		cnt++;
+		count++;
 	}
-	return (cnt);
+	return (count);
 }
