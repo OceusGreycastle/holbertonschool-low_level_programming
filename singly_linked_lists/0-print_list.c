@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- *
- *
+ * print_list - prints a list of str, or char
+ * @h: pointer to a list
 */
 
 size_t print_list(const list_t *h)
