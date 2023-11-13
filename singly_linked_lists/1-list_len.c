@@ -4,7 +4,7 @@
 /**
  * list_len - length of a list
  * @h: pointer to a list
- * 
+ *
  * Return: Always
 */
 
