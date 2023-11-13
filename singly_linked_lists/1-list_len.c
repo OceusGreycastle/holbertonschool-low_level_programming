@@ -4,6 +4,8 @@
 /**
  * list_len - length of a list
  * @h: pointer to a list
+ * 
+ * Return: Always
 */
 
 size_t list_len(const list_t *h)
