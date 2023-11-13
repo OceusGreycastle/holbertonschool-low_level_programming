@@ -4,6 +4,8 @@
 /**
  * print_list - prints a list of str, or char
  * @h: pointer to a list
+ * 
+ * Return: Always cnt
 */
 
 size_t print_list(const list_t *h)
@@ -14,7 +16,7 @@ size_t print_list(const list_t *h)
 	{
 		if ((*h).str == NULL)
 		{
-			printf("[0] (nil)");
+			printf("[%d] %s\n", 0, (nil));
 		}
 		else
 		{
